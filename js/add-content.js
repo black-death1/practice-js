@@ -1,6 +1,12 @@
-var today = new Date();
-var hourNow = today.getHours();
+// var today = new Date();
+// console.log(today);
+// var hourNow = today.getHours();
+// console.log(hournow);
+
+var hourNow = prompt("what is the time now ?");
+
 var greeting;
+
 if (hourNow > 18) {
  greeting = 'Good evening, Class!';
  } else if (hourNow > 12) {
